@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- =====================================fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,700&family=Oxanium:wght@200;300;400;500;600&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <!-- ==================================bootstarp -->
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap-5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- =============================css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Bernina Express</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/images/bernina-express.svg" alt="" class=" logo">
+                    <img src="assets/images/logo-sm.png" alt="" class=" logo-sm">
+                </a>
+               
+                <div class="d-flex align-items-center justify-content-center">
+                    <div class="mt-2 ">
+                       
+                        <i class="bi bi-search f-22 text-white me-4  search-btn"  data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
+                       
+                    </div>
+                    <div class="mt-1">
+                        <i class="bi bi-cart f-22 text-white me-4"></i>
+                    </div>
+                    <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="bi bi-list f-24 text-white"></i>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                        <li class="nav-item">
+                            <div class="nav-heading">
+                                MENÙ GENERALE
+                            </div>
+                            <ul class="nav-list">
+                                <li><a class="" href="#">Home</a></li>
+                                <li><a class="" href="#">Prenotazioni</a></li>
+                                <li><a class="" href="#">Blog</a></li>
+                                <li><a class="" href="#">Offerte</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item ">
+                            <div class="nav-heading">
+                                VIAGGI
+                            </div>
+                            <ul class="nav-list">
+                                <li><a class="" href="#">Prossime partenze</a></li>
+                                <li><a class="" href="#">Agenzie e gruppi</a></li>
+                                <li><a class="" href="#">Regala Una Gita</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <div class="nav-heading">
+                                BERNINA EXPRESS
+                            </div>
+                            <ul class="nav-list">
+                                <li>
+                                    <div class="dropdown">
+                                        <a class="nav-link dropdown-toggle mt-0 p-0" href="#" id="navbarDropdown" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Informazioni
+                                        </a>
+                                        <ul class="dropdown-menu navbar-drop-list" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="#">Info Generali</a></li>
+                                            <li><a class="dropdown-item" href="#">Orari Trenino Rosso</a></li>
+                                            <li><a class="dropdown-item" href="#">Dati Tecnici</a></li>
+                                            <li><a class="dropdown-item" href="#">Treni in servizio</a></li>
+                                            <li><a class="dropdown-item" href="#">Ferrovia Retica</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="dropdown">
+                                        <a class="nav-link dropdown-toggle mt-0 p-0" href="#" id="navbarDropdown" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Storia
+                                        </a>
+                                        <ul class="dropdown-menu  navbar-drop-list" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="#">Storia del Trenino Rosso</a></li>
+                                            <li><a class="dropdown-item" href="#">Patrimonio Mondiale UNESCO</a></li>
+                                            <li><a class="dropdown-item" href="#">Il Centenario</a></li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">Info Utili</a></li>
+                                <li><a href="#">Curiosità</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <div class="nav-heading">
+                                IL PERCORSO
+                            </div>
+                            <ul class="nav-list">
+                                <li><a href="#">Itinerari</a></li>
+                                <li><a href="#">Tirano – Saint Moritz</a></li>
+                                <li>
+                                    <div class="dropdown">
+                                        <a class="nav-link dropdown-toggle mt-0 p-0" href="#" id="navbarDropdown" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Fermate
+                                        </a>
+                                        <ul class="dropdown-menu  navbar-drop-list" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="#">Dettagli Generali</a></li>
+                                            <li><a class="dropdown-item" href="#">Tirano</a></li>
+                                            <li><a class="dropdown-item" href="#">Campocologno</a></li>
+                                            <li><a class="dropdown-item" href="#">Campascio</a></li>
+                                            <li><a class="dropdown-item" href="#">Brusio</a></li>
+
+                                            <li><a class="dropdown-item" href="#">Miralago – Le Prese</a></li>
+                                            <li><a class="dropdown-item" href="#">Poschiavo</a></li>
+                                            <li><a class="dropdown-item" href="#">Cavaglia</a></li>
+                                            <li><a class="dropdown-item" href="#">Alp Grum</a></li>
+                                            <li><a class="dropdown-item" href="#">Ospizio Bernina</a></li>
+
+                                            <li><a class="dropdown-item" href="#">Lagalb – Diavolezza</a></li>
+                                            <li><a class="dropdown-item" href="#">Morteratsch</a></li>
+                                            <li><a class="dropdown-item" href="#">Pontresina</a></li>
+                                            <li><a class="dropdown-item" href="#">Muottas Muragl</a></li>
+                                            <li><a class="dropdown-item" href="#">Celerina</a></li>
+
+                                            <li><a class="dropdown-item" href="#">Saint Moritz</a></li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="dropdown">
+                                        <a class="nav-link dropdown-toggle mt-0 p-0" href="#" id="navbarDropdown" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Zone
+                                        </a>
+                                        <ul class="dropdown-menu  navbar-drop-list" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="#">Zone attraversate</a></li>
+                                            <li><a class="dropdown-item" href="#">Canton Grigioni</a></li>
+                                            <li><a class="dropdown-item" href="#">Val Poschiavo</a></li>
+                                            <li><a class="dropdown-item" href="#">Valtellina</a></li>
+                                            <li><a class="dropdown-item" href="#">Engadina</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item ">
+                            <div class="nav-heading">
+                                PHOTOGALLERY
+                            </div>
+                            <ul class="nav-list">
+                                <li><a class="" href="#">Estate</a></li>
+                                <li><a class="" href="#">Inverno</a></li>
+
+                            </ul>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+        <div class="home-banner text-white">
+            <h1 class="f-40 w-700 mb-2 mt-0 pt-0 text-center">
+                Viaggia a Bordo del Trenino del Bernina
+            </h1>
+            <div class="d-flex align-items-center mb-3 banner-text-div">
+                <p class="mb-0 pb-0 f-22 w-500 text-center">
+                    Soluzioni con Tratta completa e Guida a Bordo in Giornata o Weekend
+                </p>
+                <div class="border-h mx-3"></div>
+                <h1 class="m-0 p-0 f-40 text-primary w-700 text-center">99€</h1>
+            </div>
+            <a href="" class="green-btn"> <i class="bi bi-cart-fill  me-2 f-22 w-700 text-white"></i> Acquista Ora »</a>
+        </div>
+    </header>
+<main>
+<section class="mb-5 mt-1">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 mt-4">
+                <div class="shadow-card">
+                    <h1 class="f-80 w-700 text-primary m-0 p-0 text-center">22</h1>
+                    <p class="mb-0 pb-0 text-primary f-24 w-600 text-center">Gen</p>
+                </div>
+            </div>
+            <div class="col-lg-6 mt-4">
+                <div class="shadow-card">
+                   <div class="d-flex align-items-start justify-content-center ">
+                    <p class="mb-0 pb-0 f-20 w-600 text-primary   text-center"><i class="bi bi-calendar-fill  text-primary  mt-1 pe-2"></i>Prossima Partenza Tour Organizzato</p></div>
+                   <h1 class="f-24 w-600 text-gray-light text-center ">Trenino Rosso del Bernina + Tirano + S.Moritz</h1>
+                    <div class="f-30 w-700 text-primary">99€</div>
+                </div>
+            </div>
+            <div class="col-lg-3 mt-4">
+                <div class="shadow-card">
+                    <p id="counter"></p>
+                        
+                    <a href="" class="red-btn">Dettagli »</a>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="mb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="main-heading mb-5">
+                    <h1>Mercatini Di Natale E Capodanno</h1>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mx-auto">
+                <div class="christmas-card mb-4">
+                    <div class="christmas-card-price">
+                        99€
+                    </div>
+                    <div class="christmas-card--img">
+                        <img src="assets/images/c1.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="christmas-card-text">
+                        <h1>Trenino Rosso del Bernina + Tirano + S.Moritz</h1>
+                        <p class="mb-0 pb-0">Prossima Data: 22/01/2023</p>
+                        <div class="text-center"><span>+ altre 62 date</span></div>
+                       <div class="d-flex justify-content-center mt-3">
+                        <a href="" class="red-btn">Dettagli »</a href="">
+                       </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mx-auto">
+                <div class="christmas-card mb-4">
+                    <div class="christmas-card-price">
+                        99€
+                    </div>
+                    <div class="christmas-card--img">
+                        <img src="assets/images/c1.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="christmas-card-text">
+                        <h1>Weekend + Red Train + St. Moritz + Typical Dinner + Spa</h1>
+                        <p class="mb-0 pb-0">Next Date: 11/02/2023</p>
+                        <div class="text-center"><span>+ 10 more dates  </span></div>
+                       <div class="d-flex justify-content-center mt-3">
+                        <a href="" class="red-btn">Dettagli »</a href="">
+                       </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 mx-auto">
+                <div class="christmas-card mb-4">
+                    <div class="christmas-card-price">
+                        99€
+                    </div>
+                    <div class="christmas-card--img">
+                        <img src="assets/images/c1.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="christmas-card-text">
+                        <h1>Heidi's House + Bus + Little Red Train</h1>
+                        <p class="mb-0 pb-0">Next Date: 05/28/2023</p>
+                        <div class="text-center"><span>+ 4 more dates</span></div>
+                       <div class="d-flex justify-content-center mt-3">
+                        <a href="" class="red-btn">Dettagli »</a href="">
+                       </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- <div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="line-div"></div>
+         </div>
+    </div>
+</div> -->
+<section class="mb-5 bg-primary py-5">
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6 text-white order-lg-1 order-2">
+            <h1 class="f-28 w-500 mb-0 pb-0">REGALA IL TRENINO ROSSO!</h1>
+            <h3 class="f-22 w-500 mb-3">Fai un regalo indimenticabile del valore di 99€!</h3>
+            <p class="mb-0 pb-0 f-14 mb-3 text-justify"> Sei alla ricerca di un regalo che sia originale e che faccia colpo? Regala un viaggio sul Trenino Rosso del Bernina! Sicuramente è una delle sorprese più gradite da ricevere, in quanto non si regala un semplice viaggio, ma un percorso costellato di emozioni uniche e che lasciano senza fiato per la loro bellezza! Il tuo regalo verrà ricordato per sempre e farai colpo con la tua originalità!
+            </p>
+            <a href="" class="green-btn2 "><i class="bi bi-gift-fill f-22 text-white me-2"></i>Regala il Trenino Rosso</a>
+        </div>
+        <div class="col-lg-6 order-lg-2 order-1">
+            <div class="d-flex justify-content-center align-items-center">
+                <img src="assets/images/gii.png" alt="" class="img-fluid gift-img">
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<section class="mb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 mb-3 text-cols">
+                <h1 class="f-26 w-400 mb-0 pb-0">Il Bernina Express è tutto questo e molto di più!</h1>
+                <p class="f-14 w-500"><b>Il Bernina Express</b> è molto più di un semplice treno!</p>
+                <p class=" f-14 w-500">
+                    Conosciuto anche come <b>Trenino Rosso</b> o <b>Trenino del Bernina</b>, è la realizzazione del sogno di ingegneri audaci, è un capolavoro dell’ingegneria civile per la tecnica con il quale è costruito, è un teatro dal quale ammirare l’affascinante spettacolo della natura, è una testimonianza della <a href="" class="p-0 m-0 px-1"> storia </a> (ha compiuto <a href="">100 anni</a> nel 1991) e del <a href="" class="px-1">Patrimonio mondiale dell’Umanità</a>, un modello esportato dall’altra parte del mondo, in Giappone.
+                </p>
+                <p class=" f-14 w-500">
+                    Il <a href="" class="px-1">Bernina Express…</a>è conosciuto come il treno più bello del mondo, o come il “treno che scala la montagna”…affrontando pendenze del 70 per mille infatti arriva quasi a toccare il cielo, a 2.253 metri di altezza…il punto più alto raggiunto da un treno in Europa.
+                </p>
+                <p class="f-14 w-500">
+                    Il Trenino Rosso del Bernina trascina nel suo intero percorso, sorprendendo ad ogni curva, aprendosi su scenari cangianti sempre diversi, dalle stradine di paese agli immensi prati, dall’Italia alla Svizzera, dalla pianura alla montagna, dai verdi pascoli ai ghiacciai eterni , donando alla nostra vista un paesaggio fiabesco, di cui fa parte esso stesso ricoprendo un ruolo di assoluto protagonista.
+                </p>
+                <p class="f-14 w-500">
+                    Dai 400 metri di altitudine di <a href="" class="px-1">Tirano</a>, la stazione di partenza su territorio italiano, fino alla stazione di arrivo di Saint Moritz, ovviamente su suolo svizzero, passando per i 2253 metri di altitudine del Rifugio Ospizio Bernina, con vista sulle bianche vette alpine oltre i 4.000 metri, attraverso un susseguirsi di viadotti, gallerie, curve che costeggiano fiumi, laghi, oppure chiese, rifugi, o magari case, o magari il nulla (o il tutto) di immensi prati verdi che si scagliano contro il blu del cielo…in un percorso di circa 3 ore, durante un viaggio che diventa un’esperienza, durante una gita che diventa un’emozione.
+                </p>
+                <p class="f-14 w-500">
+                    Bernina-express.com è la guida completa del Trenino Rosso del Bernina, nella quale potrai trovare ogni tipo di informazione relativa al Bernina Express, potrai organizzare al meglio la tua gita di uno o più giorni partendo in bus dalla tua città, potrai acquistare il biglietto del treno, potrai scoprire la storia della ferrovia retica sin dalle sue origini, scoprire curiosità, conoscere gli orari, conoscere le attrazioni turistiche meritevoli di una visita lungo il suo percorso, vedere foto, prenotare hotel e conoscere tutte le curiosità che fanno del treno del Bernina, il treno più fotografato, amato ed apprezzato del mondo.
+                </p>
+            </div>
+            <div class="col-lg-12 mb-3 text-cols">
+                <h1 class="f-26 w-400 mb-1 pb-0">Quanto dura il giro del Trenino Rosso?</h1>
+                <p class=" f-14 w-500">
+                    Il giro a bordo del Trenino Rosso del Bernina, nella sua tratta completa da capolinea a capolinea e quindi da Tirano a Saint Mortiz o viceversa dura circa 2h30 min. Il treno parte con una frequenza oraria.
+                </p>
+            </div>
+            <div class="col-lg-12 mb-3 text-cols">
+                <h1 class="f-26 w-400 mb-1 pb-0">Quanto costa un biglietto per il treno del Bernina?</h1>
+                <p class=" f-14 w-500">
+                    Il biglietto del treno da Tirano a Sankt Moritz costa 67 € a persona per andata e ritorno in seconda classe, mentre la prima classe ha un costo di 118 €.
+                </p>
+            </div>
+            <div class="col-lg-12 mb-3 text-cols">
+                <h1 class="f-26 w-400 mb-1 pb-0">Che stagione è migliore per il trenino del Bernina?</h1>
+                <p class=" f-14 w-500">
+                    Non esiste una stagione migliore per viaggiare a bordo del Bernina Express. Le 4 stagioni offrono uno scenario completamente diverso l’una dall’altra. L’estate con la sua luce e le sue giornate lunghe ha un fascino che attrae e stimola a viaggiare, non solo sul Trenino del Bernina, ma non si può dire che offra certo più dell’inverno per lo spettatore a bordo del treno, con i suoi ghiacciai, le cime innevate e l’aumentato sapore di incontaminato del paesaggio. L’autunno a sua volta è uno schizzo d’autore, con colori cangianti e paesaggi malinconici, anzi… romantici, che identificano la natura esaltandola e offrendo quello che con la primavera è il profilo migliore di queste valli, di queste montagne, di questi villaggi.
+                </p>
+            </div>
+            <div class="col-lg-12 mb-3 text-cols">
+                <h1 class="f-26 w-400 mb-1 pb-0">Dove si prende il trenino rosso?</h1>
+                <p class=" f-14 w-500">
+                    Sono ben 16 le fermate del Trenino del Bernina dalle quali è possibile salire e scendere. Il capolinea sul versante italiano è Tirano, mentre quello svizzero è Saint Moritz dopo 61 km. Per chi arriva dall’Italia esistono diversi pullman che portano a Tirano per permettere in una giornata di sfruttare il pieno a disposizione.
+                </p>
+            </div>
+            <div class="col-lg-12 mb-3 text-cols">
+                <h1 class="f-26 w-400 mb-1 pb-0">Come vestirsi per andare sul trenino del Bernina?</h1>
+                <p class=" f-14 w-500">
+                    Ovviamente la scelta dipende dalla stagione nella quale si decide di viaggiare. Bisogna comunque considerare che a bordo del treno la temperatura è gradevole e controllata dalla climatizzazione esterna, ma che a seconda della fermata di salita e discesa potrebbe esserci una significativa escursione termica, anche in relazione alle attività che si intende svolgere. Per chi per esempio dovesse salire a Tirano per scendere a Morteratsch e fare una passeggiata vicino al ghiacciaio, il consiglio è quindi di vestirsi “a cipolla”, con diversi strati “rimuovibili” per affrontare i due diversi climi.
+                </p>
+            </div>
+            <div class="col-lg-12 mb-3 text-cols">
+                <h1 class="f-26 w-400 mb-1 pb-0">Come si prenota il trenino del Bernina?</h1>
+                <p class=" f-14 w-500">
+                    Il biglietto per il trenino rosso può essere acquistato direttamente da questo sito scegliendo la data di partenza e l’orario. Per chi viaggia nel week end esistono pacchetti economicamente vantaggiosi che prevedono partenza in pullman da diverse città d’Italia e che includono anche la visita guidata di Tirano, la visita guidata di Saint Moritz e la guida a bordo del treno.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mb-5 bg-primary py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mx-auto">
+                <div class="christmas-card mb-4 bg-white">
+                    <div class="christmas-card--img2">
+                        <img src="assets/images/giftt.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="christmas-card-text">
+                        <h1>Regala il trenino Rosso del Bernina</h1>
+                        <p class="mb-0 pb-0 pt-2">Se non sai cosa regalare, vai sul sicuro! Scegli di regalare un viaggio sul Trenino Rosso del Bernina, scegli di regalare un’Esperienza unica e meravigliosa!</p>
+                       <div class="d-flex justify-content-center mt-4">
+                        <a href="" class="red-btn">Scopri di più »</a href="">
+                       </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mx-auto">
+                <div class="christmas-card mb-4 bg-white">
+                    <div class="christmas-card--img2">
+                        <img src="assets/images/book.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="christmas-card-text">
+                        <h1>Guida eBook Inclusa in ogni viaggio</h1>
+                        <p class="mb-0 pb-0 pt-2">Prenotando con noi un viaggio Organizzato sul Trenino Rosso del Bernina avrai in regalo l’ebook: Guida Completa del Trenino Rosso del valore di 9.99€!</p>
+                       <div class="d-flex justify-content-center mt-4">
+                        <a href="" class="red-btn">Scopri di più »</a href="">
+                       </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 mx-auto">
+                <div class="christmas-card mb-4 bg-white">
+                    <div class="christmas-card--img2">
+                        <img src="assets/images/Wallet-pana (1).png" alt="" class="img-fluid">
+                    </div>
+                    <div class="christmas-card-text">
+                        <h1>Paga in Contanti alla partenza</h1>
+                        <p class="mb-0 pb-0 pt-2">
+                            Il Tuo Viaggio sul Trenino Rosso del Bernina non può essere più flessibile di così! Scegli di pagare il viaggio direttamente in contanti alla partenza!</p>
+                       <div class="d-flex justify-content-center mt-4">
+                        <a href="" class="red-btn">Scopri di più »</a href="">
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+<section class="mb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="main-heading mb-3">
+                    <h1>I Prossimi Viaggi Organizzati Sul Trenino Rosso In Offerta</h1>
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <div class="upcoming-table-div">
+                    <table class="table table-striped upcoming-table">
+                        <thead>
+                            <tr>
+                                <th scope="col" class="text-center">Date</th>
+                                <th scope="col"  class="text-center">Prezzo	</th>
+                                <th scope="col"  class="text-center">Tipo di Viaggio</th>
+                                <th scope="col"  class="text-center"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="">
+                                <td scope="row"  class="text-center f-18 w-500">22-01-2023</td>
+                                <td  class="text-center f-20 w-700">99€</td>
+                                <td  class="text-center">Bernina red train + Tirano + S.Moritz</td>
+                                <td  class="text-center"><a href="" class="green-btn2">Scopri di più</a></td>
+                            </tr>
+                            <tr class="">
+                                <td scope="row"  class="text-center f-18 w-500">28-01-2023</td>
+                                <td  class="text-center f-20 w-700">99€</td>
+                                <td  class="text-center">Bernina red train + Tirano + S.Moritz</td>
+                                <td  class="text-center"><a href="" class="green-btn2">Scopri di più</a></td>
+                            </tr>
+
+                            <tr class="">
+                                <td scope="row"  class="text-center f-18 w-500">29-01-2023</td>
+                                <td  class="text-center f-20 w-700">99€</td>
+                                <td  class="text-center">Bernina red train + Tirano + S.Moritz</td>
+                                <td  class="text-center"><a href="" class="green-btn2">Scopri di più</a></td>
+                            </tr>
+                            <tr class="">
+                                <td scope="row"  class="text-center f-18 w-500">05-02-2023</td>
+                                <td  class="text-center f-20 w-700">99€</td>
+                                <td  class="text-center">Bernina red train + Tirano + S.Moritz</td>
+                                <td  class="text-center"><a href="" class="green-btn2">Scopri di più</a></td>
+                            </tr>
+
+                            <tr class="">
+                                <td scope="row"  class="text-center f-18 w-500">11-02-2023</td>
+                                <td  class="text-center f-20 w-700">249€</td>
+                                <td  class="text-center">Weekend + Trenino Rosso + S. Moritz + Cena Tipica + Terme</td>
+                                <td  class="text-center"><a href="" class="green-btn2">Scopri di più</a></td>
+                            </tr>
+                            <tr class="">
+                                <td scope="row"  class="text-center f-18 w-500">12-02-2023</td>
+                                <td  class="text-center f-20 w-700">99€</td>
+                                <td  class="text-center">Bernina red train + Tirano + S.Moritz</td>
+                                <td  class="text-center"><a href="" class="green-btn2">Scopri di più</a></td>
+                            </tr>
+
+                            <tr class="">
+                                <td scope="row"  class="text-center f-18 w-500">19-02-2023</td>
+                                <td  class="text-center f-20 w-700">99€</td>
+                                <td  class="text-center">Bernina red train + Tirano + S.Moritz</td>
+                                <td  class="text-center"><a href="" class="green-btn2">Scopri di più</a></td>
+                            </tr>
+                            <tr class="">
+                                <td scope="row"  class="text-center f-18 w-500">26-02-2023</td>
+                                <td  class="text-center f-20 w-700">99€</td>
+                                <td  class="text-center">Bernina red train + Tirano + S.Moritz</td>
+                                <td  class="text-center"><a href="" class="green-btn2">Scopri di più</a></td>
+                            </tr>
+
+                            <tr class="">
+                                <td scope="row"  class="text-center f-18 w-500">05-03-2023</td>
+                                <td  class="text-center f-20 w-700">99€</td>
+                                <td  class="text-center">Bernina red train + Tirano + S.Moritz</td>
+                                <td  class="text-center"><a href="" class="green-btn2">Scopri di più</a></td>
+                            </tr>
+                            <tr class="">
+                                <td scope="row"  class="text-center f-18 w-500">11-03-2023</td>
+                                <td  class="text-center f-20 w-700">249€</td>
+                                <td  class="text-center">Weekend + Trenino Rosso + S. Moritz + Cena Tipica + Terme</td>
+                                <td  class="text-center"><a href="" class="green-btn2">Scopri di più</a></td>
+                            </tr>
+
+                            <tr class="">
+                                <td scope="row"  class="text-center f-18 w-500">12-03-2023</td>
+                                <td  class="text-center f-20 w-700">99€</td>
+                                <td  class="text-center">Bernina red train + Tirano + S.Moritz</td>
+                                <td  class="text-center"><a href="" class="green-btn2">Scopri di più</a></td>
+                            </tr>
+                            <tr class="">
+                                <td scope="row"  class="text-center f-18 w-500">18-03-2023</td>
+                                <td  class="text-center f-20 w-700">99€</td>
+                                <td  class="text-center">Bernina red train + Tirano + S.Moritz</td>
+                                <td  class="text-center"><a href="" class="green-btn2">Scopri di più</a></td>
+                            </tr>
+
+                            <tr class="">
+                                <td scope="row"  class="text-center f-18 w-500">19-03-2023</td>
+                                <td  class="text-center f-20 w-700">99€</td>
+                                <td  class="text-center">Bernina red train + Tirano + S.Moritz</td>
+                                <td  class="text-center"><a href="" class="green-btn2">Scopri di più</a></td>
+                            </tr>
+                            <tr class="">
+                                <td scope="row"  class="text-center f-18 w-500">26-03-2023</td>
+                                <td  class="text-center f-20 w-700">99€</td>
+                                <td  class="text-center">Bernina red train + Tirano + S.Moritz</td>
+                                <td  class="text-center"><a href="" class="green-btn2">Scopri di più</a></td>
+                            </tr>
+                            <tr class="">
+                                <td scope="row"  class="text-center f-18 w-500">02-04-2023</td>
+                                <td  class="text-center f-20 w-700">99€</td>
+                                <td  class="text-center">Bernina red train + Tirano + S.Moritz</td>
+                                <td  class="text-center"><a href="" class="green-btn2">Scopri di più</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+            </div>
+            <div class="col-lg-12">
+                <div class="d-flex justify-content-end">
+                    <a href="" class="blank-btn">Vedi tutte le prossime partenze >></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="main-heading mb-3">
+                    <h1>I Prossimi Viaggi Organizzati Sul Trenino Rosso In Offerta</h1>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mx-auto">
+                <div class="christmas-card mb-4">
+                    <div class="christmas-card--img">
+                        <img src="assets/images/1.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="christmas-card-text2">
+                        <h1>Parc Ela, il più grande parco naturale della Svizzera</h1>
+                        <div class="d-flex mb-2">
+                            <span>da Lara Taverna</span>
+                            <span class="mx-2">|</span>
+                            <span>Nov 1, 2019</span>
+                            <span class="mx-2">|</span>
+                            <a href="" class="no-decoration"><span>Blog</span></a>
+                        </div>
+                        <span>Il Canton Grigioni è ricco di tesori: uno di questi è il paesaggio spettacolare del suo parco naturale, il Parc Ela, il più grande in Svizzera e anche il meno affollato, rendendolo ideale per gite in famiglia e vacanze in relax. Il Parc Ela è formato da 548...</span>
+                        
+                        <div class="d-flex justify-content-center mt-3">
+                        <a href="" class="red-btn">leggi tutto</a href="">
+                       </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mx-auto">
+                <div class="christmas-card mb-4">
+                    <div class="christmas-card--img">
+                        <img src="assets/images/2.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="christmas-card-text2">
+                        <h1>Parc Ela, il più grande parco naturale della Svizzera</h1>
+                        <div class="d-flex mb-2">
+                            <span>da Lara Taverna</span>
+                            <span class="mx-2">|</span>
+                            <span>Nov 1, 2019</span>
+                            <span class="mx-2">|</span>
+                            <a href="" class="no-decoration"><span>Blog</span></a>
+                        </div>
+                        <span>Il Canton Grigioni è ricco di tesori: uno di questi è il paesaggio spettacolare del suo parco naturale, il Parc Ela, il più grande in Svizzera e anche il meno affollato, rendendolo ideale per gite in famiglia e vacanze in relax. Il Parc Ela è formato da 548...</span>
+                        
+                        <div class="d-flex justify-content-center mt-3">
+                        <a href="" class="red-btn">leggi tutto</a href="">
+                       </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mx-auto">
+                <div class="christmas-card mb-4">
+                    <div class="christmas-card--img">
+                        <img src="assets/images/3.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="christmas-card-text2">
+                        <h1>Parc Ela, il più grande parco naturale della Svizzera</h1>
+                        <div class="d-flex mb-2">
+                            <span>da Lara Taverna</span>
+                            <span class="mx-2">|</span>
+                            <span>Nov 1, 2019</span>
+                            <span class="mx-2">|</span>
+                            <a href="" class="no-decoration"><span>Blog</span></a>
+                        </div>
+                        <span>Il Canton Grigioni è ricco di tesori: uno di questi è il paesaggio spettacolare del suo parco naturale, il Parc Ela, il più grande in Svizzera e anche il meno affollato, rendendolo ideale per gite in famiglia e vacanze in relax. Il Parc Ela è formato da 548...</span>
+                        
+                        <div class="d-flex justify-content-center mt-3">
+                        <a href="" class="red-btn">leggi tutto</a href="">
+                       </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mx-auto">
+                <div class="christmas-card mb-4">
+                    <div class="christmas-card--img">
+                        <img src="assets/images/4.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="christmas-card-text2">
+                        <h1>Parc Ela, il più grande parco naturale della Svizzera</h1>
+                        <div class="d-flex mb-2">
+                            <span>da Lara Taverna</span>
+                            <span class="mx-2">|</span>
+                            <span>Nov 1, 2019</span>
+                            <span class="mx-2">|</span>
+                            <a href="" class="no-decoration"><span>Blog</span></a>
+                        </div>
+                        <span>Il Canton Grigioni è ricco di tesori: uno di questi è il paesaggio spettacolare del suo parco naturale, il Parc Ela, il più grande in Svizzera e anche il meno affollato, rendendolo ideale per gite in famiglia e vacanze in relax. Il Parc Ela è formato da 548...</span>
+                        
+                        <div class="d-flex justify-content-center mt-3">
+                        <a href="" class="red-btn">leggi tutto</a href="">
+                       </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mx-auto">
+                <div class="christmas-card mb-4">
+                    <div class="christmas-card--img">
+                        <img src="assets/images/5.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="christmas-card-text2">
+                        <h1>Parc Ela, il più grande parco naturale della Svizzera</h1>
+                        <div class="d-flex mb-2">
+                            <span>da Lara Taverna</span>
+                            <span class="mx-2">|</span>
+                            <span>Nov 1, 2019</span>
+                            <span class="mx-2">|</span>
+                            <a href="" class="no-decoration"><span>Blog</span></a>
+                        </div>
+                        <span>Il Canton Grigioni è ricco di tesori: uno di questi è il paesaggio spettacolare del suo parco naturale, il Parc Ela, il più grande in Svizzera e anche il meno affollato, rendendolo ideale per gite in famiglia e vacanze in relax. Il Parc Ela è formato da 548...</span>
+                        
+                        <div class="d-flex justify-content-center mt-3">
+                        <a href="" class="red-btn">leggi tutto</a href="">
+                       </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mx-auto">
+                <div class="christmas-card mb-4">
+                    <div class="christmas-card--img">
+                        <img src="assets/images/6.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="christmas-card-text2">
+                        <h1>Parc Ela, il più grande parco naturale della Svizzera</h1>
+                        <div class="d-flex mb-2">
+                            <span>da Lara Taverna</span>
+                            <span class="mx-2">|</span>
+                            <span>Nov 1, 2019</span>
+                            <span class="mx-2">|</span>
+                            <a href="" class="no-decoration"><span>Blog</span></a>
+                        </div>
+                        <span>Il Canton Grigioni è ricco di tesori: uno di questi è il paesaggio spettacolare del suo parco naturale, il Parc Ela, il più grande in Svizzera e anche il meno affollato, rendendolo ideale per gite in famiglia e vacanze in relax. Il Parc Ela è formato da 548...</span>
+                        
+                        <div class="d-flex justify-content-center mt-3">
+                        <a href="" class="red-btn">leggi tutto</a href="">
+                       </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <div class="d-flex justify-content-between">
+                    <a href="" class="blank-btn">« Post precedenti</a>
+                    <a href="" class="blank-btn">Post successivi »</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">
+            Ricerca</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <input type="text" class="search-input me-4" placeholder="Search..">
+           <div class="d-flex justify-content-end mt-3">
+            <button type="button" class="btn red-btn2" data-bs-dismiss="modal">Ricerca »</button>
+           </div>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="bg-primary d-flex justify-content-center align-items-center f-16 w-500 text-white py-2">
+    Copyright © 2023. All Rights Reserved.
+</footer>
+<script src="https://code.jquery.com/jquery-3.6.3.slim.js" integrity="sha256-DKU1CmJ8kBuEwumaLuh9Tl/6ZB6jzGOBV/5YpNE2BWc=" crossorigin="anonymous"></script>
+
+    <script src="assets/bootstrap/bootstrap-5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/app.js"></script>
+</body>
+
+</html>

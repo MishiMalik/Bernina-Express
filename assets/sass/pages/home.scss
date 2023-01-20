@@ -1,0 +1,190 @@
+.home-banner{
+    background-image: url('/assets/images/banner1.png');
+    height: 90vh;
+    width: 100%;
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 15px;
+}
+.banner-text-div{
+    @media only screen and (max-width:767px){
+       flex-direction: column;
+    }
+    .border-h{
+        @media only screen and (max-width:767px){
+            display: none;
+         }
+    }
+    .f-40{
+        @media only screen and (max-width:767px){
+            font-size: 40px;
+         }
+    }
+}
+// ===========================================shadow cards
+.shadow-card{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+    height: 100%;
+    padding: 20px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+#counter{
+    font-size: 26px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+// =============================================Christmas-cards
+.christmas-card{
+    box-shadow: 4px 4px 48px rgba(0, 0, 0, 0.14);
+    border-radius: 10px;
+    position: relative;
+    margin-top: 30px;
+    height: 90%;
+}
+.christmas-card-price{
+    width: 90px;
+    height: 90px;
+   
+    box-shadow: -4px -4px 48px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: -40px;
+    z-index: 1;
+  
+    background-color: $primary;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    left: calc(50% - 40px);
+    @media only screen and (max-width:767px){
+        width: 80px;
+        height: 80px;
+     }
+}
+.christmas-card--img{
+    height: 250px;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+    img{
+        height: 100%;
+        width: 100%;
+    }
+}
+.christmas-card--img2{
+    height: 250px;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+    object-fit: contain;
+    img{
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+}
+.christmas-card-text{
+    padding:20px 40px 40px 40px;
+    @media only screen and (max-width:767px){
+        padding:20px 20px 40px 20px;
+    }
+    h1{
+        color: #333;
+        font-weight: 600;
+        font-size: 18px;
+        text-align: center;
+        display: -webkit-box;
+        // max-width: 200px;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+    p{
+        font-size: 14px;
+    padding-top: 20px;
+    text-align: center;
+    font-weight: 500;
+    }
+    span{
+        color: #aaa;
+        font-size: 12px;
+        font-weight: 500;
+    } 
+}
+.christmas-card-text2{
+    padding:20px 30px 40px 30px;
+
+    @media only screen and (max-width:767px){
+        padding:20px 15px 40px 15px;
+    }
+    h1{
+        color: #333;
+        font-weight: 600;
+        font-size: 18px;
+        display: -webkit-box;
+        // max-width: 200px;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+    p{
+        font-size: 14px;
+    padding-top: 20px;
+    text-align: center;
+    font-weight: 500;
+    }
+    span{
+        color: rgb(153, 151, 151);
+        font-size: 14px;
+        font-weight: 400;
+        text-align: justify !important;
+        display: -webkit-box;
+        // max-width: 200px;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    } 
+}
+.gift-img{
+    height: 260px;
+    width:auto;
+    object-fit: contain;
+}
+// ===========================================upcoming table
+.upcoming-table-div{
+   
+    @media only screen and (max-width:767px){
+        overflow-x:scroll;
+    width: 100%;
+    }
+}
+.upcoming-table {
+    @media only screen and (max-width:767px){
+        min-width: 800px;
+        overflow-x:scroll;
+    }
+}
+.upcoming-table thead{
+    background-color: $primary;
+    color: white;
+    
+}
+.upcoming-table thead th{
+    font-weight: 600 !important;
+    font-size: 18px !important;
+}
+.upcoming-table tbody tr  td{
+    vertical-align: middle;
+}

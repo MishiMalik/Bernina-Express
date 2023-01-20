@@ -1,0 +1,215 @@
+
+body{
+    // font-family: 'Oxanium', cursive;
+// font-family: 'Roboto', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+.logo{
+    height: 50px;
+    width: auto;
+    @media only screen and (max-width:500px){
+        display: none;
+    }
+}
+.logo-sm{
+    display: none;
+    @media only screen and (max-width:500px){
+        display: block;
+    }
+}
+.color-changed{
+    background-color: $primary !important;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.237);
+    z-index: 10;;
+    @media only screen and (max-width:500px){
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+}
+.navbar-collapse{
+ height:calc(100vh - 80px);
+    overflow-y: scroll;
+}
+.border-h{
+    height: 50px;
+    background-color: white;
+    width: 1px;
+}
+.green-btn{
+    padding: 20px 30px;
+    background: #4caf50;
+    color: #FFF;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.24);
+    text-decoration: none;
+    @media only screen and (max-width:767px){
+        padding: 15px 20px;
+        font-size: 18px;
+     }
+}
+.green-btn:hover{
+    color: white;
+}
+.green-btn2{
+    padding: 12px 20px;
+    background: #4caf50;
+    color: #FFF;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.24);
+    text-decoration: none;
+    @media only screen and (max-width:767px){
+        padding: 10px 10px;
+        font-size: 18px;
+     }
+}
+.green-btn2:hover{
+    color: white;
+}
+.red-btn{
+    padding: 10px 30px;
+    background:$primary;
+    color: #FFF;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.24);
+    text-decoration: none;
+    @media only screen and (max-width:767px){
+        padding: 8px 20px;
+        font-size: 18px;
+     }
+}
+.red-btn:hover{
+    color: white;
+}
+.red-btn2{
+    padding: 5px 20px;
+    background:$primary;
+    color: #FFF;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.24);
+    text-decoration: none;
+    @media only screen and (max-width:767px){
+        padding: 5px 20px;
+        font-size: 18px;
+     }
+}
+.red-btn2:hover{
+    color: white;
+}
+.nav-item{
+    padding: 10px;
+}
+.nav-heading{
+    background-color: white;
+    padding: 10px 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: $primary;
+}
+.nav-list{
+    list-style: none;
+    padding-left: 0px !important;
+}
+.nav-list li{
+    padding:14px 15px 0px 15px;
+}
+.nav-list li a{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.nav-list li a:hover{
+    color: rgb(247, 192, 192);
+ 
+}
+.dropdown-toggle{
+    color: white !important;
+}
+.navbar-drop-list{
+    background-color: transparent !important;
+}
+.navbar-drop-list li a:hover {
+    color: $primary !important;
+}
+.search-btn{
+    cursor: pointer;
+}
+.search-input{
+    background-color: rgba(0, 0, 0, 0.237);
+    border: none;
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 10px 10px;
+    color: white;
+    width: 100%;
+}
+.search-input::placeholder{
+    color: white;
+}
+.search-input:focus{
+    outline: none !important;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: white;
+    padding: 0px 3px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: $primary;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: $primary;
+  }
+  .line-div{
+    height: 10px;
+    width: 100%;
+    background-color: $primary;
+  }
+  .text-cols a {
+    text-decoration: none !important;
+  }
+  .text-cols p {
+    text-align: justify;
+  }
+
+  .blank-btn{
+    background-color: transparent;
+    color: $primary;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .blank-btn:hover{
+    color: $primary;
+    text-decoration: underline;
+  }
+  .no-decoration{
+    text-decoration: none !important;
+  }

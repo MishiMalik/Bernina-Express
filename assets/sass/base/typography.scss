@@ -1,0 +1,122 @@
+$primary:#d32f2f;
+$green:#4caf50;
+$gray-light:#2F4F4F;
+
+// ----------------------------------fonts
+.f-14{
+    font-size: 14px;
+}
+.f-16{
+    font-size: 16px;
+}
+.f-18{
+    font-size: 18px;
+}
+.f-20{
+    font-size: 20px;
+    @media only screen and (max-width:767px){
+        font-size: 18px;
+     }
+}
+.f-22{
+    font-size: 22px;
+    @media only screen and (max-width:767px){
+       font-size: 20px;
+    }
+}
+.f-24{
+    font-size: 24px;
+}
+.f-26{
+    font-size: 26px;
+    @media only screen and (max-width:767px){
+        font-size: 22px;
+     }
+}
+.f-28{
+    font-size: 28px;
+}
+.f-30{
+    font-size: 30px;
+}
+.f-32{
+    font-size: 32px;
+}
+.f-34{
+    font-size: 34px;
+}
+.f-36{
+    font-size: 36px;
+}
+.f-38{
+    font-size: 38px;
+}
+.f-40{
+    font-size: 40px;
+    @media only screen and (max-width:767px){
+       font-size: 25px;
+    }
+}
+.f-80{
+    font-size: 80px;
+    @media only screen and (max-width:767px){
+       font-size: 50px;
+    }
+}
+// ==========================font weights
+.w-400{
+    font-weight: 400;
+}
+.w-500{
+    font-weight: 500;
+}
+.w-600{
+    font-weight: 600;
+}
+.w-700{
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+.bg-primary{
+    background-color: $primary !important;
+}
+.bg-dark-light{
+    background-color: #000;
+}
+.bg-grey{
+  background-color: #DCDCDC !important;
+}
+
+.text-primary{
+    color:$primary !important;
+}
+.text-green{
+    color:$green ;
+}
+.text-gray-light{
+    color: $gray-light;
+}
+.text-justify{
+    text-align: justify;
+}
+
+
+// =================================headings
+.main-heading{
+    border-bottom: 2px solid $primary;
+    h1{
+        font-size: 24px;
+     font-weight: 600;
+    color: $primary;
+    }
+
+}
