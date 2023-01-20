@@ -265,12 +265,12 @@ body {
 
 /* width */
 ::-webkit-scrollbar {
-  width: 10px; }
+  width: 10px;
+  outline: 1px solid white; }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: white;
-  padding: 0px 3px; }
+  background: white; }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
@@ -469,3 +469,15 @@ body {
 
 .upcoming-table tbody tr td {
   vertical-align: middle; }
+
+.banner2 {
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)), url("/assets/images/banner2.jpg");
+  height: 75vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 15px; }

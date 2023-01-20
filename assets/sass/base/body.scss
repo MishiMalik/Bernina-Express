@@ -170,12 +170,12 @@ font-family: 'Open Sans', sans-serif;
 /* width */
 ::-webkit-scrollbar {
     width: 10px;
+    outline: 1px solid white;
   }
   
   /* Track */
   ::-webkit-scrollbar-track {
     background: white;
-    padding: 0px 3px;
   }
   
   /* Handle */
