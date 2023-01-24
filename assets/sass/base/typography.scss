@@ -1,6 +1,7 @@
 $primary:#d32f2f;
 $green:#4caf50;
 $gray-light:#2F4F4F;
+$text:#666;
 
 // ----------------------------------fonts
 .f-14{
@@ -108,7 +109,9 @@ $gray-light:#2F4F4F;
 .text-justify{
     text-align: justify;
 }
-
+.text{
+    color: $text;
+}
 
 // =================================headings
 .main-heading{
@@ -119,4 +122,16 @@ $gray-light:#2F4F4F;
     color: $primary;
     }
 
+}
+.ellipsis-5{
+   
+        display: -webkit-box;
+        // max-width: 200px;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+}
+.no-drcoration{
+    text-decoration: none;
+    color: inherit;
 }

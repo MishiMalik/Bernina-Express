@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- =====================================fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,700&family=Oxanium:wght@200;300;400;500;600&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <!-- ==================================bootstarp -->
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap-5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- =============================css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- ============================select 2 -->
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+
+    <title>Bernina Express</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/images/bernina-express.svg" alt="" class=" logo">
+                    <img src="assets/images/logo-sm.png" alt="" class=" logo-sm">
+                </a>
+
+                <div class="d-flex align-items-center justify-content-center">
+                    <div class="mt-2 ">
+
+                        <i class="bi bi-search f-22 text-white me-4  search-btn" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal"></i>
+
+                    </div>
+                    <div class="mt-1">
+                        <a href="cart.html"><i class="bi bi-cart f-22 text-white me-4  search-btn"></i></a>
+                        
+                    </div>
+                    <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="bi bi-list f-24 text-white"></i>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                        <li class="nav-item">
+                            <div class="nav-heading">
+                                MENÙ GENERALE
+                            </div>
+                            <ul class="nav-list">
+                                <li><a class="" href="index.html">Home</a></li>
+                                <li><a class="" href="viaggi-trenino-bernina.html">Prenotazioni</a></li>
+                                <li><a class="" href="blog.html">Blog</a></li>
+                                <li><a class="" href="trenino-rosso-offerte.html">Offerte</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item ">
+                            <div class="nav-heading">
+                                VIAGGI
+                            </div>
+                            <ul class="nav-list">
+                                <li><a class="" href="viaggi-trenino-bernina.html">Prossime partenze</a></li>
+                                <li><a class="" href="agenzie-gruppi-bernina/.html">Agenzie e gruppi</a></li>
+                                <li><a class="" href="regala-bernina-express.html">Regala Una Gita</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <div class="nav-heading">
+                                BERNINA EXPRESS
+                            </div>
+                            <ul class="nav-list">
+                                <li>
+                                    <div class="dropdown">
+                                        <a class="nav-link dropdown-toggle mt-0 p-0" href="#" id="navbarDropdown"
+                                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Informazioni
+                                        </a>
+                                        <ul class="dropdown-menu navbar-drop-list" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="trenino-del-bernina.html">Info Generali</a></li>
+                                            <li><a class="dropdown-item" href="trenino-rosso-bernina-orari.html">Orari Trenino Rosso</a></li>
+                                            <li><a class="dropdown-item" href="dati-tecnici-bernina.html">Dati Tecnici</a></li>
+                                            <li><a class="dropdown-item" href="bernina-treni-in-servizio.html">Treni in servizio</a></li>
+                                            <li><a class="dropdown-item" href="ferrovia-retica.html">Ferrovia Retica</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="dropdown">
+                                        <a class="nav-link dropdown-toggle mt-0 p-0" href="#" id="navbarDropdown"
+                                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Storia
+                                        </a>
+                                        <ul class="dropdown-menu  navbar-drop-list" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="storia-bernina-express.html">Storia del Trenino Rosso</a></li>
+                                            <li><a class="dropdown-item" href="bernina-unesco.html">Patrimonio Mondiale UNESCO</a></li>
+                                            <li><a class="dropdown-item" href="centenario-trenino-bernina.html">Il Centenario</a></li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="info-utili-bernina.html">Info Utili</a></li>
+                                <li><a href="curiosita-bernina.html">Curiosità</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <div class="nav-heading">
+                                IL PERCORSO
+                            </div>
+                            <ul class="nav-list">
+                                <li><a href="itinerari-trenino-bernina.html">Itinerari</a></li>
+                                <li><a href="tirano-saint-moritz.html">Tirano – Saint Moritz</a></li>
+                                <li>
+                                    <div class="dropdown">
+                                        <a class="nav-link dropdown-toggle mt-0 p-0" href="#" id="navbarDropdown"
+                                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Fermate
+                                        </a>
+                                        <ul class="dropdown-menu  navbar-drop-list" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="fermate-trenino-bernina.html">Dettagli Generali</a></li>
+                                            <li><a class="dropdown-item" href="tirano.html">Tirano</a></li>
+                                            <li><a class="dropdown-item" href="campocologno.html">Campocologno</a></li>
+                                            <li><a class="dropdown-item" href="campascio.html">Campascio</a></li>
+                                            <li><a class="dropdown-item" href="brusio.html">Brusio</a></li>
+
+                                            <li><a class="dropdown-item" href="miralago-le-prese.html">Miralago – Le Prese</a></li>
+                                            <li><a class="dropdown-item" href="poschiavo.html">Poschiavo</a></li>
+                                            <li><a class="dropdown-item" href="cavaglia.html">Cavaglia</a></li>
+                                            <li><a class="dropdown-item" href="alp-grum.html">Alp Grum</a></li>
+                                            <li><a class="dropdown-item" href="ospizio-bernina.html">Ospizio Bernina</a></li>
+
+                                            <li><a class="dropdown-item" href="lagalb-diavolezza.html">Lagalb – Diavolezza</a></li>
+                                            <li><a class="dropdown-item" href="morteratsch.html">Morteratsch</a></li>
+                                            <li><a class="dropdown-item" href="pontresina.html">Pontresina</a></li>
+                                            <li><a class="dropdown-item" href="muottas-muragl.html">Muottas Muragl</a></li>
+                                            <li><a class="dropdown-item" href="celerina.html">Celerina</a></li>
+
+                                            <li><a class="dropdown-item" href="saint-moritz.html">Saint Moritz</a></li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="dropdown">
+                                        <a class="nav-link dropdown-toggle mt-0 p-0" href="#" id="navbarDropdown"
+                                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Zone
+                                        </a>
+                                        <ul class="dropdown-menu  navbar-drop-list" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="zone-attraversate-trenino-bernina.html">Zone attraversate</a></li>
+                                            <li><a class="dropdown-item" href="canton-grigioni.html">Canton Grigioni</a></li>
+                                            <li><a class="dropdown-item" href="val-poschiavo.html">Val Poschiavo</a></li>
+                                            <li><a class="dropdown-item" href="valtellina.html">Valtellina</a></li>
+                                            <li><a class="dropdown-item" href="engadina.html">Engadina</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item ">
+                            <div class="nav-heading">
+                                PHOTOGALLERY
+                            </div>
+                            <ul class="nav-list">
+                                <li><a class="" href="photogallery-inverno.html">Estate</a></li>
+                                <li><a class="" href="photogallery-estate.html">Inverno</a></li>
+
+                            </ul>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+        <div class="banner5 text-white">
+            <h1 class="f-40 w-600 mb-2 mt-0 pt-0 text-center ">
+                Trenino Rosso Offerte
+            </h1>
+           
+        </div>
+    </header>
+    <main>
+       
+        <!-- <div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="line-div"></div>
+         </div>
+    </div>
+</div> -->
+      
+        <section class="mb-3 mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 mb-3 text-cols">
+                        <h1 class="f-26 w-400 mb-0 pb-0 mb-3">Trenino Rosso Offerte</h1>
+                        <p class=" f-14 w-500">
+                            Vivere una giornata, oppure un weekend, immersi nella natura e nell’atmosfera unica che si respira fra queste valli a bordo di uno dei mezzi più belli al mondo è un’occasione da non perdere, soprattutto sfruttando una delle nostre offerte per il <b>Trenino Rosso del Bernina</b>.
+                        </p>
+                        <p class="f-14 w-500">
+                            Funzionando ininterrottamente tutti i giorni dell’anno, e con tutte le condizioni atmosferiche, avrete la possibilità di scegliere il periodo più adatto a voi e godere comunque di uno spettacolo naturale incredibile, percorrendo la tratta ultra centenaria che collega Tirano a Saint Moritz, fra Italia e Svizzera, passando per il suo punto più alto situato a 2253 metri sul livello del mare (fermata Ospizio Bernina), scoprendo così il motivo per cui è stato nominato Patrimonio dell’Umanità da parte dell’UNESCO.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class=" bg-primary py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 mx-auto text-white order-lg-1 order-2">
+                        <h1 class="f-28 w-500 "><i class="bi bi-hand-thumbs-up-fill me-2 text-white" ></i>Trenino Rosso Offerte – Perchè con noi</h1>
+                        <p class="mb-0 pb-0 f-14 mb-3 text-justify"> <b>Tutte le nostre offerte</b> per il Trenino Rosso sono studiate per essere le più economiche, in quanto recandosi coi propri mezzi a Tirano, sia in treno che in macchina, dovreste effettuare anche il viaggio di ritorno con il trenino rosso del Bernina, dovendo spendere quindi il doppio solo per i biglietti. Percorrere la stessa tratta in giornata renderebbe impossibile, inoltre, poter effettuare altre escursioni o visite guidate, e oltre a vedere lo stesso panorama dell’andata, dovrete rimanere in stazione ad aspettare il treno per il rientro, rischiando poi di dover correre per rientrare nelle vostre città in treno o in auto (spendendo così altri soldi).
+                        </p>
+                        <p class="mb-0 pb-0 f-14 mb-3 text-justify"> 
+                            Nei pacchetti viaggio da noi organizzati, il nostro pullman sfrutta il vostro tempo a bordo del treno per raggiungere St. Moritz, venendovi così a prendere una volta arrivati nella cittadina svizzera per poi riaccompagnarvi direttamente in Italia, permettendovi così la visita sia di Tirano che di St.Moritz, che come detto precedentemente non sarebbe possibile riuscire a visitare. In tutte le nostre soluzioni per il trenino potrete usufruire della visita guidata a bordo, che rende l’esperienza a bordo ancora più appagante.
+                        </p>
+                      
+                    </div>
+                 
+                </div>
+            </div>
+        </section>
+        <section class="mb-5 bg-grey py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 mx-auto order-lg-1 order-2">
+                        <h1 class="f-28 w-500 text-primary"><i class="bi bi-bookmark-fill me-2 text-primary"></i>Trenino Rosso Offerte – Perchè con noi</h1>
+                        <p class="mb-0 pb-0 f-14 mb-3 text-justify"> <b>Le nostre offerte per il Trenino Rosso del Bernina sono numerose </b> 
+                            e a seconda del periodo dell’anno proporremo in questa sezione quelle in evidenza, facendovi scoprire i pacchetti più gettonati, quelli più entusiasmanti e quelli più caratteristici. Il tutto per farvi vivere una delle esperienze più belle della vostra vita.
+                        </p>
+                      
+                    </div>
+                 
+                </div>
+            </div>
+        </section>
+        <section class="mb-3 mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 mb-3 text-cols">
+                        <h1 class="f-26 w-400 mb-0 pb-0 mb-3"><i class="bi bi-bookmark-fill me-2"></i>Trenino Rosso Offerte Viaggio</h1>
+                        <div class="d-flex justify-content-center">
+                            <img src="assets/images/banner4.jpg" alt="" class="img-fluid mb-3">
+                        </div>
+                        <p class=" f-14 w-500">
+                            Se siete alla ricerca di un’offerta per il Trenino Rosso del Bernina più specifica potrete pure consultare la lista dei nostri prossimi viaggi in programma e godervi così una delle nostre gite di giornata o nel weekend immersi in un una cornice naturale unica e tutta da scoprire pian piano che il trenino si inerpica lungo il suo percorso e le sue valli. Potrete scegliere fra le soluzioni classiche con Tratta Completa del Trenino Rosso, in giornata o con pernottamento, e quelle più suggestive, come le soluzioni di Capodanno o con la Casa di Heidi o con i Mercatini di Natale, o per fare un dolce sorpresa a San Valentino al vostro partner!
+                        </p>
+                      
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="upcoming-table-div">
+                            <table class="table table-striped upcoming-table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" class="text-center">Date</th>
+                                        <th scope="col" class="text-center">Prezzo </th>
+                                        <th scope="col" class="text-center">Tipo di Viaggio</th>
+                                        <th scope="col" class="text-center"></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="">
+                                        <td scope="row" class="text-center f-18 w-500">22-01-2023</td>
+                                        <td class="text-center f-20 w-700">99€</td>
+                                        <td class="text-center">Bernina red train + Tirano + S.Moritz</td>
+                                        <td class="text-center"><a href="" class="green-btn2">Scopri di più</a></td>
+                                    </tr>
+                                    <tr class="">
+                                        <td scope="row" class="text-center f-18 w-500">28-01-2023</td>
+                                        <td class="text-center f-20 w-700">99€</td>
+                                        <td class="text-center">Bernina red train + Tirano + S.Moritz</td>
+                                        <td class="text-center"><a href="" class="green-btn2">Scopri di più</a></td>
+                                    </tr>
+
+                                    <tr class="">
+                                        <td scope="row" class="text-center f-18 w-500">29-01-2023</td>
+                                        <td class="text-center f-20 w-700">99€</td>
+                                        <td class="text-center">Bernina red train + Tirano + S.Moritz</td>
+                                        <td class="text-center"><a href="" class="green-btn2">Scopri di più</a></td>
+                                    </tr>
+                                    <tr class="">
+                                        <td scope="row" class="text-center f-18 w-500">05-02-2023</td>
+                                        <td class="text-center f-20 w-700">99€</td>
+                                        <td class="text-center">Bernina red train + Tirano + S.Moritz</td>
+                                        <td class="text-center"><a href="" class="green-btn2">Scopri di più</a></td>
+                                    </tr>
+
+                                    <tr class="">
+                                        <td scope="row" class="text-center f-18 w-500">11-02-2023</td>
+                                        <td class="text-center f-20 w-700">249€</td>
+                                        <td class="text-center">Weekend + Trenino Rosso + S. Moritz + Cena Tipica +
+                                            Terme</td>
+                                        <td class="text-center"><a href="" class="green-btn2">Scopri di più</a></td>
+                                    </tr>
+                                    <tr class="">
+                                        <td scope="row" class="text-center f-18 w-500">12-02-2023</td>
+                                        <td class="text-center f-20 w-700">99€</td>
+                                        <td class="text-center">Bernina red train + Tirano + S.Moritz</td>
+                                        <td class="text-center"><a href="" class="green-btn2">Scopri di più</a></td>
+                                    </tr>
+
+                                    <tr class="">
+                                        <td scope="row" class="text-center f-18 w-500">19-02-2023</td>
+                                        <td class="text-center f-20 w-700">99€</td>
+                                        <td class="text-center">Bernina red train + Tirano + S.Moritz</td>
+                                        <td class="text-center"><a href="" class="green-btn2">Scopri di più</a></td>
+                                    </tr>
+                                    <tr class="">
+                                        <td scope="row" class="text-center f-18 w-500">26-02-2023</td>
+                                        <td class="text-center f-20 w-700">99€</td>
+                                        <td class="text-center">Bernina red train + Tirano + S.Moritz</td>
+                                        <td class="text-center"><a href="" class="green-btn2">Scopri di più</a></td>
+                                    </tr>
+
+                                    <tr class="">
+                                        <td scope="row" class="text-center f-18 w-500">05-03-2023</td>
+                                        <td class="text-center f-20 w-700">99€</td>
+                                        <td class="text-center">Bernina red train + Tirano + S.Moritz</td>
+                                        <td class="text-center"><a href="" class="green-btn2">Scopri di più</a></td>
+                                    </tr>
+                                    <tr class="">
+                                        <td scope="row" class="text-center f-18 w-500">11-03-2023</td>
+                                        <td class="text-center f-20 w-700">249€</td>
+                                        <td class="text-center">Weekend + Trenino Rosso + S. Moritz + Cena Tipica +
+                                            Terme</td>
+                                        <td class="text-center"><a href="" class="green-btn2">Scopri di più</a></td>
+                                    </tr>
+
+                                    <tr class="">
+                                        <td scope="row" class="text-center f-18 w-500">12-03-2023</td>
+                                        <td class="text-center f-20 w-700">99€</td>
+                                        <td class="text-center">Bernina red train + Tirano + S.Moritz</td>
+                                        <td class="text-center"><a href="" class="green-btn2">Scopri di più</a></td>
+                                    </tr>
+                                    <tr class="">
+                                        <td scope="row" class="text-center f-18 w-500">18-03-2023</td>
+                                        <td class="text-center f-20 w-700">99€</td>
+                                        <td class="text-center">Bernina red train + Tirano + S.Moritz</td>
+                                        <td class="text-center"><a href="" class="green-btn2">Scopri di più</a></td>
+                                    </tr>
+
+                                    <tr class="">
+                                        <td scope="row" class="text-center f-18 w-500">19-03-2023</td>
+                                        <td class="text-center f-20 w-700">99€</td>
+                                        <td class="text-center">Bernina red train + Tirano + S.Moritz</td>
+                                        <td class="text-center"><a href="" class="green-btn2">Scopri di più</a></td>
+                                    </tr>
+                                    <tr class="">
+                                        <td scope="row" class="text-center f-18 w-500">26-03-2023</td>
+                                        <td class="text-center f-20 w-700">99€</td>
+                                        <td class="text-center">Bernina red train + Tirano + S.Moritz</td>
+                                        <td class="text-center"><a href="" class="green-btn2">Scopri di più</a></td>
+                                    </tr>
+                                    <tr class="">
+                                        <td scope="row" class="text-center f-18 w-500">02-04-2023</td>
+                                        <td class="text-center f-20 w-700">99€</td>
+                                        <td class="text-center">Bernina red train + Tirano + S.Moritz</td>
+                                        <td class="text-center"><a href="" class="green-btn2">Scopri di più</a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-12 mt-3">
+                        <div class="d-flex justify-content-end">
+                            <a href="" class="blank-btn">Vedi tutte le prossime partenze >></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mb-3 mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 mb-3 text-cols">
+                        <h1 class="f-26 w-600 mb-0 pb-0 mb-0 text-center d-flex align-items-center justify-content-center"><img src="assets/images/bed.png" alt="" class="img-fluid mb-0 p-0 me-3">Trenino Rosso Offerte Hotel</h1>
+                        <p class=" f-14 w-500">
+                            Se volete godere dell’esperienza del Trenino Rosso e volete pernottare in una delle città limitrofe e sparse fra le valli della Valtellina e l’Engadina, conviene trovare una sistemazione in una delle città in cui è presente una delle fermate comprese nella tratta Tirano – Saint Moritz. Prenotando attraverso il nostro sito vi garantiamo un servizio di ricerca di primissima qualità e al prezzo minimo garantito, grazie al nostro partner commerciale di fama mondiale, Booking. Compila il modulo sottostante per cercare l’hotel che fa per te!
+                        </p>
+                    </div>
+                    <div class="col-lg-8 mx-auto">
+                     <form action="">
+                        <div class="mb-3">
+                            <label for="" class="form-label">Scegli la località</label>
+                        <select class="search-input w-100 form-input" name="state">
+                            <option value="AL">Campolongo</option>
+                          
+                            <option value="WY">
+                                Tirano
+                                </option>
+
+                                <option value="WY">
+                                    Campascio
+                                   </option>
+                                    <option value="WY">
+                                        
+                                        Brusio
+                                       </option>
+                                        <option value="WY">
+                                            Poschiavo
+                                           </option>
+                                            <option value="WY">
+                                                Alp Grum
+                                               </option>
+                                                <option value="WY">
+                                                    Pontresina
+                                                   </option>
+                                                    <option value="WY">
+                                                        Celerina
+                                                      </option>
+                                                        <option value="WY">
+                                                            St. Moritz</option>
+                          </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="" class="form-label">CHECK-IN</label>
+                            <input type="date" class="form-input w-100">
+                        </div>
+                        <div class="mb-3">
+                            <label for="" class="form-label">CHECK-OUT</label>
+                            <input type="date" class="form-input w-100">
+                        </div>
+                        <div class="mb-3">
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Non ho ancora deciso le date</label>
+                              </div>
+                        </div>
+                        <div class="mb-4 d-flex justify-content-end ">
+                            <button class="red-btn no-border"> <i class="bi bi-search f-18 text-white me-2 " ></i>Cerca</button>
+                        </div>
+                        <div class="mb-3 mt-4">
+                            <p class="f-14 w-400">
+                                Sappiate però che trovare un’ <b>offerta per un hotel per il Trenino Rosso </b> ad un buon prezzo rischia di essere difficile, per questo motivo noi consigliamo uno dei <a href="">nostri viaggi in bus col pernottamento e il Trenino Rosso</a>
+                            </p>
+                        </div>
+                     </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">
+                                Ricerca</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <input type="text" class="search-input me-4" placeholder="Search..">
+                            <div class="d-flex justify-content-end mt-3">
+                                <button type="button" class="btn red-btn2" data-bs-dismiss="modal">Ricerca »</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-primary d-flex justify-content-center align-items-center f-16 w-500 text-white py-2">
+        Copyright © 2023. All Rights Reserved.
+    </footer>
+    
+
+    <script src="https://code.jquery.com/jquery-3.6.3.slim.js"
+        integrity="sha256-DKU1CmJ8kBuEwumaLuh9Tl/6ZB6jzGOBV/5YpNE2BWc=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="assets/bootstrap/bootstrap-5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/app.js"></script>
+    <script>
+        // In your Javascript (external .js resource or <script> tag)
+$(document).ready(function() {
+  $('.search-input').select2();
+});
+    </script>
+</body>
+
+</html>
