@@ -70,6 +70,9 @@
 .w-700 {
   font-weight: 700; }
 
+.lobster {
+  font-family: 'Lobster', cursive; }
+
 .bg-primary {
   background-color: #d32f2f !important; }
 
@@ -531,6 +534,18 @@ body {
   flex-direction: column;
   padding: 10px 15px; }
 
+.banner6 {
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)), url("/assets/images/anner6.jpg");
+  height: 75vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 15px; }
+
 .img {
   float: left;
   margin: 0px 15px 15px 0px; }
@@ -572,3 +587,54 @@ body {
   font-size: 16px !important;
   font-weight: 600 !important;
   color: #d32f2f !important; }
+
+.gift-card {
+  position: relative; }
+
+.gift-card-img {
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+  box-shadow: 0px 2px 18px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 3px; }
+
+.feature-tag {
+  position: absolute;
+  top: 0;
+  left: 0; }
+  .feature-tag img {
+    height: 120px; }
+
+.gift-price {
+  position: absolute;
+  bottom: -20px;
+  right: -20px;
+  box-shadow: 0 0 14px rgba(0, 0, 0, 0.247) !important;
+  padding: 16px !important;
+  font-size: 21px;
+  width: 50%;
+  background: #FFF !important;
+  text-align: center !important; }
+  @media only screen and (max-width: 767px) {
+    .gift-price {
+      right: -5px; } }
+
+.gift-price p {
+  color: #666 !important;
+  font-size: 18px;
+  font-weight: 500; }
+
+.gift-price h1 {
+  color: #009688 !important;
+  font-size: 32px;
+  font-weight: 500; }
+
+.gift-price span {
+  color: #666 !important;
+  font-size: 16px;
+  font-weight: 500; }
+
+.gift-price a {
+  color: #d32f2f !important;
+  font-size: 16px;
+  font-weight: 600; }
