@@ -170,3 +170,76 @@ font-weight: 500 !important;
   flex-direction: column;
   padding: 10px 15px;
 }
+.text-row-li li{
+  margin-bottom: 5px !important;
+}
+.banner8{
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),url('/assets/images/trenino-del-bernina-panorama-lago.jpg');
+  height: 75vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 15px;
+}
+
+.banner9{
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.12), rgba(117, 19, 93, 1)),url('/assets/images/orario-trenino-bernina.jpg');
+  height: 75vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 15px;
+}
+.statistics-table tr td {
+padding: 20px !important;
+border: 2px solid $primary;
+background-color: transparent;
+font-size: 15px;
+font-weight: 500;
+}
+
+.banner10{
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.12), rgba(117, 19, 93, 1)),url('/assets/images/capacita-tecnica-trenino-bernina.jpg');
+  height: 75vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 15px;
+}
+
+.banner11{
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.12), rgba(117, 19, 93, 1)),url('/assets/images/treno-bernina-servizio-bernina-express.jpg');
+  height: 75vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 15px;
+}
+.banner12{
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.12), rgba(117, 19, 93, 1)),url('/assets/images/ferrovia-retica-treno.jpg');
+  height: 75vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 15px;
+}
