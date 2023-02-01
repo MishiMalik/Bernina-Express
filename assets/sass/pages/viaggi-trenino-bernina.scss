@@ -243,3 +243,370 @@ font-weight: 500;
   flex-direction: column;
   padding: 10px 15px;
 }
+
+.banner13{
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.12), rgba(117, 19, 93, 1)),url('/assets/images/storia-bernina-express.jpg');
+  height: 75vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 15px;
+}
+
+.banner14{
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.12), rgba(117, 19, 93, 1)),url('/assets/images/unesco-bernina-cartello.jpg');
+  height: 75vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 15px;
+}
+
+
+.banner15{
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.12), rgba(117, 19, 93, 1)),url('/assets/images/bernina-festa-centenario.jpg');
+  height: 75vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 15px;
+}
+
+
+.banner16{
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.12), rgba(117, 19, 93, 1)),url('/assets/images/informazioni-trenino-bernina.jpg');
+  height: 75vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 15px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.banner17{
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.12), rgba(117, 19, 93, 1)),url('/assets/images/curiosita-bernina-express-ingresso.jpg');
+  height: 75vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 15px;
+}
+
+.banner18{
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.12), rgba(117, 19, 93, 1)),url('/assets/images/itinerari-trenino-bernina-express.jpg');
+  height: 75vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 15px;
+}
+.banner19{
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.12), rgba(117, 19, 93, 1)),url('/assets/images/g5.jpg');
+  height: 75vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 15px;
+}
+.gallery-img img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.ratio{
+  background-color:transparent!important;
+  padding: 20px !important;
+  max-height: 90vh;
+}
+
+.ratio img{
+
+  padding: 20px;
+}
+.wrapper{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.wrapper span{
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  user-select: none;
+color: $primary;
+  background: #FFF;
+  border-radius: 12px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+.wrapper span.num{
+  font-size: 20px;
+ background-color: transparent;
+ box-shadow: none;
+  pointer-events: none;
+}
+.select2-container--default .select2-selection--single{
+
+  height:54px !important;
+  display: flex;
+  align-items: center;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da !important;
+    vertical-align: middle !important;
+    padding-left: 10px;
+}
+input{
+  font-weight: 600 !important;
+}
+.floating-label{
+  font-size: 16px;
+  font-weight: 500;
+  color: $text;
+}
+.btn-green{
+  padding: 10px 30px;
+  background:rgb(53, 161, 53);
+  color: #FFF;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 5px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.24);
+  text-decoration: none;
+  @media only screen and (max-width:991px){
+    width: 100%;
+    text-align: center;
+  }
+}
+.btn-green:hover{
+  color: white;
+}
+
+.btn-grey{
+  padding: 10px 30px;
+  background:grey;
+  color: #FFF;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 5px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.24);
+  text-decoration: none;
+  @media only screen and (max-width:991px){
+     width: 100%;
+     text-align: center;
+   }
+   
+}
+.btn-grey:hover{
+  color: white;
+}
+
+.btn-download{
+  padding: 10px 30px;
+  background:$primary;
+  color: #FFF;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 5px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.24);
+  text-decoration: none;
+  @media only screen and (max-width:991px){
+     width: 100%;
+     text-align: center;
+   }
+   
+}
+.btn-download:hover{
+  color: white;
+}
+.ebook-bg{
+background-image:url('/assets/images/ebook-reader-epub-bernina-express.jpg');
+
+background-size: cover;
+background-position: center;
+}
+
+.weekend-card{
+  background-color: #ffffff;
+    margin-top: -125px!important;
+    z-index: 1;
+    position: relative;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.048);
+    border-radius: 4px !important;
+    @media only screen and (max-width:991px){
+      margin-top: 25px !important;
+    }
+}
+.weekend-card-header{
+  background-color: $primary;
+  padding: 7px 10px;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+}
+.weekend-card-body{
+  padding: 30px;
+}
+.border2{
+  border-color: grey;
+}
+.lock-row{
+  background-color: #DCEAC8;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+}
+.weekend-banner{
+  background-color: #00ACC1;
+  padding: 20px;
+}
+.contact-card{
+  background-color: white;
+  padding: 10px 15px 8px 15px;
+  display: flex;
+  justify-content:left;
+  align-items: center;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.068);
+}
+.calender-date{
+  background-color: white;
+  height: 80px;
+  width: 80px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.068);
+  padding: 15px;
+  text-align: center;
+  margin: 10px;
+}
+.display-more{
+  display: none;
+}
+.tooltip2 {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip2 .tooltiptext {
+  visibility: hidden;
+  width: 200px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  padding: 10px 10px;
+  border-radius: 6px;
+
+  /* Position the tooltip text */
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  right: -30%;
+  // margin-left: -60px;
+
+  /* Fade in tooltip */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+/* Tooltip arrow */
+.tooltip2 .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip2:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.viaggio-input{
+  font-size: 16px;
+  font-weight: 500;
+  background-color: white;
+  padding: 8px 20px;
+  border: 2px solid $primary;
+  border-radius: 20px;
+  width: 40%;
+  transition: all .5s;
+}
+.viaggio-input::placeholder{
+  font-weight: 500;
+}
+.viaggio-input:focus{
+  width: 100% !important;
+}
+
+.citta-card{
+  background-color: white;
+  border-radius: 2px;
+  display: flex;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.068);
+  &-header{
+    background-color: #8EBE4E;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &-body{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

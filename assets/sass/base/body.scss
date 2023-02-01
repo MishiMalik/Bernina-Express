@@ -213,3 +213,9 @@ font-family: 'Open Sans', sans-serif;
   .no-decoration{
     text-decoration: none !important;
   }
+  main{
+    min-height: 90vh;
+  }
+  .modal-backdrop{
+    opacity: .7 !important;
+  }
